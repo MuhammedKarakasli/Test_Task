@@ -9,6 +9,10 @@ public class LoginTest extends TestPage{
 		homePage.SubmitAccount()
 		.Submit();
 		
+		String ActualTitle = driver.getTitle();
+		String ExpectedTitle = "Web UI Playground";
+		Assert.assertEquals(ActualTitle, ExpectedTitle);
+		
 	}
 
 }
