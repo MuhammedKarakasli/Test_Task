@@ -1,5 +1,7 @@
 # Test_Task
 Hello 
+This project is the test project of dsr company.
+
 I used the driver compatible with my Chrome.
 its here the "Manuel_QA_Test_Task/Util/chromedriver.exe"
 
