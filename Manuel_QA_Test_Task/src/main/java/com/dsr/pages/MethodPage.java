@@ -36,6 +36,7 @@ public class MethodPage extends PageBase{
 		submit.click(); Thread.sleep(2000);
 		Alert alert=driver.switchTo().alert();Thread.sleep(2000);
 		alert.accept();Thread.sleep(2000);
+		System.out.println("Page title is:" + driver.getTitle());
 		
 		
 		
